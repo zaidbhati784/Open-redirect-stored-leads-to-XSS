@@ -15,6 +15,11 @@
 6.	After opening the Account1 profile in Links: section click on the Website link given(web logo)					
 7.	You will see the redirection and then XSS will trigger.					
 	Demonstration of Vulnerability:					
-	POC1: https://clipchamp.com/watch/YwwwJjsCUII     (Account1)					
-	POC2: https://clipchamp.com/watch/5eRYSz2zZlh          (Account2)					
+	POC1: https://clipchamp.com/watch/YwwwJjsCUII     (Account1)
+					
+	POC2: https://clipchamp.com/watch/5eRYSz2zZlh          (Account2)
+					
 	POC3: https://clipchamp.com/watch/gU4eVf5MYvP    (All in one)					
+
+Impact:					
+Attacker can make user redirect to malicious website and aslo attacker can still cookies who clicks on the link					
